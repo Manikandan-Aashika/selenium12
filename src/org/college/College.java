@@ -14,12 +14,16 @@ public class College
 	{
 		System.out.println("6th Rank");
 	}
+	public void collegeMark(){
+		System.out.println("high");
+	}
 	public static void main(String args[])
 	{
 		College inf=new College();
 		inf.collegeName();
 		inf.collegeCode();
 		inf.collegeRank();
+		inf.collegeMark();
 		
 		Student stu=new Student();
 		stu.studentName();
